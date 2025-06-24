@@ -7,7 +7,7 @@ import time
 class ExcelViewerApp:
     def __init__(self, root):
         self.root = root
-        self.root.title("OHI IITC Interview Records")
+        self.root.title("CompanyName Interview Records")
         self.root.geometry("900x500")
 
         # ⚠️ Set your Excel file path here
