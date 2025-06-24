@@ -16,7 +16,7 @@ REFRESH_INTERVAL = 3000  # milliseconds
 class CentralDisplayApp:
     def __init__(self, root):
         self.root = root
-        self.root.title("OHI IITC Central Display")
+        self.root.title("CompanyName Central Display")
         self.root.configure(bg="#f0f8ff")
 
         self.root.attributes('-fullscreen', True)
@@ -24,7 +24,7 @@ class CentralDisplayApp:
         self.root.bind("<f>", self.enter_fullscreen)
         self.root.bind("<F>", self.enter_fullscreen)
 
-        tk.Label(root, text="🎓 OHI IITC Interview", font=("Arial", 36, "bold"),
+        tk.Label(root, text="🎓 CompanyName Interview", font=("Arial", 36, "bold"),
                  fg="#004080", bg="#f0f8ff").pack(pady=(20, 5))
 
         btn_fullscreen = tk.Button(
