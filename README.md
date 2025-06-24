@@ -13,7 +13,7 @@ This is the front-desk application where a staff member logs each candidate as t
   - Stores token data in a daily folder under `Tickets/YYYY-MM-DD - Tickets`
   - Tracks date using `config/last_ticket_date.txt`
 
-<b> Ideal for reception or registration desk staff to quickly log and print token slips. </b>
+> <b> Ideal for reception or registration desk staff to quickly log and print token slips. </b>
 
 ## 🖥️ 2. Interview Room Control Panel - `Interview Room 1.py, Interview Room 2.py (With Packaged .exe File for Windows for both the Python Files)`
 This app runs inside each interview room and allows the interviewer or assistant to call the next candidate. Each instance represents one counter/room and includes:
@@ -24,7 +24,7 @@ This app runs inside each interview room and allows the interviewer or assistant
   - Updates a central file queue_state.json with the list of called tokens
   - Only reads from `candidate_list.xlsx` (does not write to it)
 
-<b> Multiple rooms can run their own instance (Room 1, Room 2, and more), and all will coordinate via the shared `queue_state.json`. </b>
+> <b> Multiple rooms can run their own instance (Room 1, Room 2, and more), and all will coordinate via the shared `queue_state.json`. </b>
 
 ## 📺 3. Central Display Board - `Central Display.py (With Packaged .exe File for Windows)`
 This is the live token display screen visible to waiting candidates. It auto-refreshes every few seconds and shows:
@@ -35,7 +35,7 @@ It pulls data from:
   - `queue_state.json` → Called token data (Updated by Room apps)
   - `candidate_list.xlsx` → Candidate names and details
 
-<b>This app is read-only and does not modify any files. Place it in the same folder as the shared `.json` and `.xlsx` files for live updates.</b>
+> <b>This app is read-only and does not modify any files. Place it in the same folder as the shared `.json` and `.xlsx` files for live updates.</b>
 
 ## 🗂️ 4. Record Viewer App - `Record Viewer.py (With Packaged .exe File for Windows)`
 This utility app is designed for admins or HR staff to monitor, review, or audit the list of registered or interviewed candidates. It:
@@ -45,7 +45,7 @@ This utility app is designed for admins or HR staff to monitor, review, or audit
   - Auto-refreshes every 3 seconds to reflect new candidate entries
   - Is fully read-only — it does not modify the Excel file
 
-<b>This app is especially helpful during busy interview sessions for non-technical users who need a live, automatically refreshing view of which candidates have registered and when. It’s also ideal for verifying past entries, performing audit checks, or exporting data manually — all without needing to open Excel separately.</b>
+> <b>This app is especially helpful during busy interview sessions for non-technical users who need a live, automatically refreshing view of which candidates have registered and when. It’s also ideal for verifying past entries, performing audit checks, or exporting data manually — all without needing to open Excel separately.</b>
 
 # 📁 File Overview
 | File/Folder | App/File Name | Description |
@@ -59,4 +59,8 @@ This utility app is designed for admins or HR staff to monitor, review, or audit
 | `config/last_ticket_date.txt` | Text File - Last Ticket Date | Tracks the last active date for auto-resetting token numbers each day. |
 | `Tickets/YYYY-MM-DD - Tickets/` | PDF File - Tokens, Excel File - List of Tokens | Daily folder containing all generated PDF tickets plus a copy of the Excel log `candidate_list_YYYY-MM-DD.xlsx` for that day. |
 
-<b> Note: Place all files in a single folder. Also include `dip_config/notify.wav`, which plays a sound and highlights the name when a new candidate is called from Room 1, 2, etc. You can change the sound path in the Python File. Compile using PyInstaller or similar to create a `.exe File`. </b>
+<b> Note: 
+  - Place all files in a single folder. Also include `dip_config/notify.wav`, which plays a sound and highlights the name when a new candidate is called from Room 1, 2, etc. You can     change the sound path in the Python File. Compile using PyInstaller or similar to create a `.exe File`. In the `.exe Files` the sound is embedded within the app.
+  - `.exe Files` can be accessed from by Clicking Here: [Drive Share Folder](https://drive.google.com/drive/folders/1dhkN6V82qp-A2-ePw5LvCwpez8Fb67YU?usp=sharing)
+</b>
+
