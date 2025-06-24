@@ -58,3 +58,5 @@ This utility app is designed for admins or HR staff to monitor, review, or audit
 | `queue_state.json` | JSON File - Queue State | Maintains the live state of called tokens and their assigned interview rooms. |
 | `config/last_ticket_date.txt` | Text File - Last Ticket Date | Tracks the last active date for auto-resetting token numbers each day. |
 | `Tickets/YYYY-MM-DD - Tickets/` | PDF File - Tokens, Excel File - List of Tokens | Daily folder containing all generated PDF tickets plus a copy of the Excel log `candidate_list_YYYY-MM-DD.xlsx` for that day. |
+
+<b> Note: Place all files in a single folder. Also include `dip_config/notify.wav`, which plays a sound and highlights the name when a new candidate is called from Room 1, 2, etc. You can change the sound path in the Python File. Compile using PyInstaller or similar to create a `.exe File`. </b>
