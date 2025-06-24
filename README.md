@@ -10,4 +10,5 @@ This is the front-desk application where a staff member logs each candidate as t
   - Resets the token count every day automatically
   - Stores token data in a daily folder under Tickets/YYYY-MM-DD - Tickets
   - Tracks date using config/last_ticket_date.txt
+
 <b> Ideal for reception or registration desk staff to quickly log and print token slips. <b>
