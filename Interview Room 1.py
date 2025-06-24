@@ -34,7 +34,7 @@ class TokenCallerApp:
         self.display_window.geometry("300x200")
         self.display_window.protocol("WM_DELETE_WINDOW", self.on_display_close)
 
-        self.display_heading = tk.Label(self.display_window, text="OHI IITC",
+        self.display_heading = tk.Label(self.display_window, text="Company Name",
                                         font=("Arial", 20, "bold"), fg="black")
         self.display_heading.pack(pady=(10, 5))
 
