@@ -18,7 +18,7 @@ DATE_TRACK_FILE = os.path.join(CONFIG_FOLDER, "last_ticket_date.txt")
 class InterviewCandidatePOS:
     def __init__(self, root):
         self.root = root
-        self.root.title("OHI IITC Candidate POS")
+        self.root.title("CompanyName Candidate POS")
         self.set_window_size(420, 480)
         self.root.configure(bg="#f0f8ff")
 
@@ -45,7 +45,7 @@ class InterviewCandidatePOS:
         self.input_frame.columnconfigure(1, weight=1)
 
         # Title Label
-        tk.Label(self.input_frame, text="🎓 OHI IITC Interview Candidate POS",
+        tk.Label(self.input_frame, text="🎓 CompanyName Interview Candidate POS",
                  font=("Arial", 15, "bold"), bg="#f0f8ff").grid(row=0, column=0, columnspan=2, pady=(0, 15))
 
         # Candidate Name
@@ -200,7 +200,7 @@ class InterviewCandidatePOS:
         qr_img.save(qr_temp)
 
         c.setFont("Helvetica-Bold", 16)
-        c.drawCentredString(width / 2, height - 30, "OHI IITC")
+        c.drawCentredString(width / 2, height - 30, "CompanyName")
 
         c.setFont("Helvetica", 10)
         c.drawCentredString(width / 2, height - 50, f"{date} ({day}) | {time}")
