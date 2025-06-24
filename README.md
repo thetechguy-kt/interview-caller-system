@@ -61,6 +61,5 @@ This utility app is designed for admins or HR staff to monitor, review, or audit
 
 <b> Note: 
   - Place all files in a single folder. Also include `dip_config/notify.wav`, which plays a sound and highlights the name when a new candidate is called from Room 1, 2, etc. You can     change the sound path in the Python File. Compile using PyInstaller or similar to create a `.exe File`. In the `.exe Files` the sound is embedded within the app.
-  - `.exe Files` can be accessed from by Clicking Here: [Drive Share Folder](https://drive.google.com/drive/folders/1dhkN6V82qp-A2-ePw5LvCwpez8Fb67YU?usp=sharing)
 </b>
 
