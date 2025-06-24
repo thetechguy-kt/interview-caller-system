@@ -26,7 +26,7 @@ This app runs inside each interview room and allows the interviewer or assistant
 
 > <b> Multiple rooms can run their own instance (Room 1, Room 2, and more), and all will coordinate via the shared `queue_state.json`. </b>
 
-## 📺 3. Central Display Board - `Central Display.py`
+## 📺 3. Central Display Board - `Central Display.py (With Packaged .exe File for Windows)`
 This is the live token display screen visible to waiting candidates. It auto-refreshes every few seconds and shows:
   - The current token number and candidate name
   - The room number where the candidate should go
@@ -37,7 +37,7 @@ It pulls data from:
 
 > <b>This app is read-only and does not modify any files. Place it in the same folder as the shared `.json` and `.xlsx` files for live updates.</b>
 
-## 🗂️ 4. Record Viewer App - `Record Viewer.py`
+## 🗂️ 4. Record Viewer App - `Record Viewer.py (With Packaged .exe File for Windows)`
 This utility app is designed for admins or HR staff to monitor, review, or audit the list of registered or interviewed candidates. It:
   - Loads and displays the contents of `candidate_list.xlsx` in a tabular view
   - Uses a simple Tkinter-based table/grid or a widget like `ttk.Treeview`
