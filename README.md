@@ -1,6 +1,8 @@
 # <b>Interview Queue Caller System</b>
 # <i>A simple, offline interview management system with a queue-based caller system, built using Python and Tkinter.</i>
 
+### <i>This project is licensed under the MIT License — see the LICENSE file for details.</i>
+
 This is a multi-part application designed to streamline the candidate flow management during interviews or walk-in assessments. It automates token generation, queue control, and live displays for interview counters. Built with Python and Tkinter, the system uses Excel and JSON files for data storage and operates entirely offline.
 
 ## 📄 1. Candidate Token Generator App - `Candidate POS.py (With Packaged .exe File for Windows)`
