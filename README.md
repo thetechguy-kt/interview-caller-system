@@ -41,13 +41,13 @@ It pulls data from:
 
 ## 🗂️ 4. Record Viewer App - `Record Viewer.py`
 This utility app is designed for admins or HR staff to monitor, review, or audit the list of registered or interviewed candidates. It:
-  - Loads and displays the contents of `candidate_list.xlsx` in a tabular view
-  - Uses a simple Tkinter-based table/grid or a widget like `ttk.Treeview`
-  - Supports scrolling for large datasets
-  - Auto-refreshes every 3 seconds to reflect new candidate entries
-  - Is fully read-only — it does not modify the Excel file
+ - Loads and displays the contents of candidate_list.xlsx as a live-updating HTML table
+ - Uses a lightweight Flask web server with server-side Excel rendering (no Excel or GUI libraries needed)
+ - Supports large datasets by rendering directly from the Excel file on the server
+ - Auto-refreshes every 3 seconds to reflect new candidate entries via automatic page reload
+ - Is fully read-only — it does not modify the Excel file.
 
-> <b>This app is especially helpful during busy interview sessions for non-technical users who need a live, automatically refreshing view of which candidates have registered and when. It’s also ideal for verifying past entries, performing audit checks, or exporting data manually — all without needing to open Excel separately.</b>
+> <b>This app is especially helpful during busy interview sessions for non-technical users who need a live, automatically refreshing web view of which candidates have registered and when. It’s also ideal for verifying past entries, performing audit checks, or sharing the list easily across multiple devices — all without opening Excel manually.</b>
 
 # 📁 File Overview
 | File/Folder | App/File Name | Description |
