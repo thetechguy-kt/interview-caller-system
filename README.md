@@ -9,7 +9,7 @@ This is a multi-part application designed to streamline the candidate flow manag
 8th November 2025:
   - Release 2 uploaded in GitHub. All the Bugs are fixed in Release 2.
   - The Pre-Release 3 is uploaded in the Main Repository.
-  - Any Queries can be sent to my E-Mail ID: `[thetechguy34@outlook.com](mailto:thetechguy34@outlook.com)`
+  - Any Queries can be sent to my E-Mail ID: [thetechguy34@outlook.com](mailto:thetechguy34@outlook.com)
 
 ## 📄 1. Candidate Token Generator App - `Candidate POS.py (With Packaged .exe File for Windows)`
 This is the front-desk application where a staff member logs each candidate as they arrive. It:
