@@ -5,6 +5,12 @@
 
 This is a multi-part application designed to streamline the candidate flow management during interviews or walk-in assessments. It automates token generation, queue control, and live displays for interview counters. Built with Python and Tkinter, the system uses Excel and JSON files for data storage and operates entirely offline.
 
+### ONE-TIME  ChangeLog ###
+8th November 2025:
+  - Release 2 uploaded in GitHub. All the Bugs are fixed in Release 2.
+  - The Pre-Release 3 is uploaded in the Main Repository.
+  - Any Queries can be sent to my E-Mail ID: `[thetechguy34@outlook.com](mailto:thetechguy34@outlook.com)`
+
 ## 📄 1. Candidate Token Generator App - `Candidate POS.py (With Packaged .exe File for Windows)`
 This is the front-desk application where a staff member logs each candidate as they arrive. It:
   - Allows entry of candidate name and contact number
