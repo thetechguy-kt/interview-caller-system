@@ -1,0 +1,4 @@
+openpyxl==3.1.5
+reportlab==4.4.4
+qrcode==8.2
+flask==3.1.2
