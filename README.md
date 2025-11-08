@@ -62,6 +62,7 @@ This utility app is designed for admins or HR staff to monitor, review, or audit
 | `Interview Room 1\2`</center> | Interview Room Controller | Calls the next candidate, updates `queue_state.json`, and displays the token info in-room. |
 | `Central Display.py` | Central Display Board | Displays currently called tokens and assigned rooms in real-time for waiting candidates. |
 | `Record Viewer.py` | Live Record Viewer App | Shows and auto-refreshes the full list of registered candidates from `candidate_list.xlsx`. |
+| `requirements.txt` | Dependancy Track | Mentions all the dependancies the app relies on. Useful for development purposes. |
 | `candidate_list.xlsx` | Excel File - Candidate List | Stores all logged candidate details including name, number, time, and assigned token. |
 | `queue_state.json` | JSON File - Queue State | Maintains the live state of called tokens and their assigned interview rooms. |
 | `config/last_ticket_date.txt` | Text File - Last Ticket Date | Tracks the last active date for auto-resetting token numbers each day. |
