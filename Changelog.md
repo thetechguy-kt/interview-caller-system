@@ -1,5 +1,15 @@
 # ChangeLog for Interview Queue Caller System Application #
 
+## Pre-Release 3 - November 8th, 2025 ##
+### <i> Note: This Pre-Release was only uploaded in the `main` branch of this repository and was not officaly a Release. </i>
+-  Project officialy released.
+-  The Pre-Release of <b> Candidate POS </b> has been released.
+-  The Pre-Release of <b> Interview Control Pannel </b> has been released.
+-  The Pre-Release of <b> Record Viewer </b> has been released.
+-  The Pre-Release of <b> Central Display of Reception </b> has been released.
+-  Change in the GUI of the Record Viewer Flask Server Application.
+-  Added One-Time Changelog in the `README` File.
+
 ## Release 2 - November 8th, 2025 ##
 ### <i> Note: This Release was offcially released in the name of <b> Release 2</b>. </i>
 -  The Release 2 has been officially released in GitHub.
@@ -33,7 +43,7 @@
 -  Some changes in the `README` File.
 -  Fixed Bugs for the <b> Record Viewer </b> Application.
 
-## Pre-Release - June 24th, 2025 ##
+## Pre-Release 1 - June 24th, 2025 ##
 ### <i> Note: This Pre-Release was only uploaded in the `main` branch of this repository and was not officaly a Release. </i>
 -  Project officialy released.
 -  The Pre-Release of <b> Candidate POS </b> has been released.
