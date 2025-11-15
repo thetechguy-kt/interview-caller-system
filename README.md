@@ -10,6 +10,7 @@ This is a multi-part application designed to streamline the candidate flow manag
   - Release 2 uploaded in GitHub. All the Bugs are fixed in Release 2.
   - The Pre-Release 3 is uploaded in the Main Repository.
   - Any Queries can be sent to my E-Mail ID: [thetechguy34@outlook.com](mailto:thetechguy34@outlook.com)
+
 For the full ChangeLog: [Click Here](https://github.com/thetechguy-kt/interview-caller-system/blob/main/Changelog.md)
 
 ## 📄 1. Candidate Token Generator App - `Candidate POS.py (With Packaged .exe File for Windows)`
