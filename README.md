@@ -2,7 +2,7 @@
 [![Documentation](https://img.shields.io/badge/Documentation-available-brightgreen)](./README.md)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](./LICENSE)
 ![Platforms](https://img.shields.io/badge/Platform-Windows-blue)
-[![Pytho11n](https://img.shields.io/badge/Python-3.9-orange?logo=python)](https://www.python.org/)
+[![Python](https://img.shields.io/badge/Python-3.9-orange?logo=python)](https://www.python.org/)
 
 <i>A simple, offline interview management system with a queue-based caller system, built using Python and Tkinter.</i>
 ### <i>This project is licensed under the MIT License — see the LICENSE file for details.</i>
