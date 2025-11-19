@@ -2,7 +2,7 @@
 [![Documentation](https://img.shields.io/badge/Documentation-available-brightgreen)](./README.md)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](./LICENSE)
 ![Platforms](https://img.shields.io/badge/Platform-Windows-blue)
-[![Python](https://img.shields.io/badge/Python-3.9-orange?logo=python)](https://www.python.org/)
+[![Python](https://img.shields.io/badge/Python-3.10-orange?logo=python)](https://www.python.org/)
 
 <i>A simple, offline interview management system with a queue-based caller system, built using Python and Tkinter.</i>
 ### <i>This project is licensed under the MIT License — see the LICENSE file for details.</i>
@@ -10,9 +10,8 @@
 This is a multi-part application designed to streamline the candidate flow management during interviews or walk-in assessments. It automates token generation, queue control, and live displays for interview counters. Built with Python and Tkinter, the system uses Excel and JSON files for data storage and operates entirely offline.
 
 ### One-Time ChangeLog ###
-8th November 2025:
-  - Release 2 uploaded in GitHub. All the Bugs are fixed in Release 2.
-  - The Pre-Release 3 is uploaded in the Main Repository.
+19th November 2025:
+  - Release 3 uploaded in GitHub. All the Bugs are fixed in Release 3.
   - Any Queries can be sent to my E-Mail ID: [thetechguy34@outlook.com](mailto:thetechguy34@outlook.com)
 
 For the full ChangeLog: [Click Here](https://github.com/thetechguy-kt/interview-caller-system/blob/main/Changelog.md)
@@ -75,6 +74,6 @@ This utility app is designed for admins or HR staff to monitor, review, or audit
 | `Tickets/YYYY-MM-DD - Tickets/` | PDF File - Tokens, Excel File - List of Tokens | Daily folder containing all generated PDF tickets plus a copy of the Excel log `candidate_list_YYYY-MM-DD.xlsx` for that day. |
 
 <b> Note: 
-  - Place all files in a single folder. Also include `dip_config/notify.wav`, which plays a sound and highlights the name when a new candidate is called from Room 1, 2, etc. You can     change the sound path in the Python File. Compile using PyInstaller or similar to create a `.exe File`. In the `.exe Files` the sound is embedded within the app.
+  - Place all files in a single folder. Also include `dip_config/notify.wav`, which plays a sound and highlights the name when a new candidate is called from Room 1, 2, etc. You can     change the sound path in the Python File. Compile using PyInstaller or similar to create a `.exe File`.
   - `.exe Files` can be accessed from by Clicking Here: [Drive Share Folder](https://drive.google.com/drive/folders/1dhkN6V82qp-A2-ePw5LvCwpez8Fb67YU?usp=sharing)
 </b>
