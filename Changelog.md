@@ -1,5 +1,22 @@
 # ChangeLog for Interview Queue Caller System Application #
 
+## Release 3 - November 19th, 2025 ##
+### <i> Note: This Release was offcially released in the name of <b> Release 2</b>. </i>
+-  The Release 3 has been officially released in GitHub.
+-  Release 3 Windows Applications are there in the Drive Share Folder.
+-  Full GitHub Repository is packaged as a Zip File and can be downloaded from the Release 3 Page.
+
+## Release 3 - November 18th, 2025 ##
+### <i> Note: This Pre-Release was only uploaded in the `main` branch of this repository and was not officaly a Release. </i>
+-  Project officialy released.
+-  The Release of <b> Candidate POS </b> has been released.
+-  The Release of <b> Interview Control Pannel </b> has been released.
+-  The Release of <b> Record Viewer </b> has been released.
+-  The Release of <b> Central Display of Reception </b> has been released.
+-  Fixed Some bugs which was there in the Record Viewer Application which is based on Flask Server.
+-  Some changes in the `README` File.
+-  This release is dedicated to all the Dark Mode Fans.
+
 ## Pre-Release 3 - November 8th, 2025 ##
 ### <i> Note: This Pre-Release was only uploaded in the `main` branch of this repository and was not officaly a Release. </i>
 -  Project officialy released.
