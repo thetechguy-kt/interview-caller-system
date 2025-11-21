@@ -9,12 +9,14 @@
 
 This is a multi-part application designed to streamline the candidate flow management during interviews or walk-in assessments. It automates token generation, queue control, and live displays for interview counters. Built with Python and Tkinter, the system uses Excel and JSON files for data storage and operates entirely offline.
 
+To get the Online Version of this application or system, please have a look at this repository: [Click Here](https://github.com/thetechguy-kt/interview-caller-system_online)
+
 ### One-Time ChangeLog ###
 19th November 2025:
   - Release 3 uploaded in GitHub. All the Bugs are fixed in Release 3.
   - Any Queries can be sent to my E-Mail ID: [thetechguy34@outlook.com](mailto:thetechguy34@outlook.com)
 
-For the full ChangeLog: [Click Here](https://github.com/thetechguy-kt/interview-caller-system/blob/main/Changelog.md)
+For the full ChangeLog: (Click Here)[https://github.com/thetechguy-kt/interview-caller-system/blob/main/Changelog.md]
 
 ## 📄 1. Candidate Token Generator App - `Candidate POS.py (With Packaged .exe File for Windows)`
 This is the front-desk application where a staff member logs each candidate as they arrive. It:
