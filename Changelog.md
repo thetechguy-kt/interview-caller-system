@@ -41,7 +41,7 @@
 -  The Release 2 of <b> Record Viewer </b> has been released.
 -  The Release of <b> Central Display of Reception </b> has been released.
 -  Some changes in the `README` File.
--  The Record Viewer Application had bugs with the Generic Tkinter Application and moved on to Flask Server for viewing the `candidate_list.xlsx` file for better viewing purposes.
+-  The Record Viewer Application had bugs with the Generic Tkinter Application has been moved on to Flask Server for viewing the `candidate_list.xlsx` file for better viewing purposes.
 
 ## Release 1 - June 26th, 2025 ##
 ### <i> Note: This Release was offcially released in the name of <b> Release 1</b>. </i>
