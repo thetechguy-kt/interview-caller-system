@@ -14,7 +14,7 @@ To get the Online Version of this application or system, please have a look at t
 ### One-Time ChangeLog ###
 19th November 2025:
   - Release 3 uploaded in GitHub. All the Bugs are fixed in Release 3.
-  - Any Queries can be sent to my E-Mail ID: [thetechguy34@outlook.com](mailto:thetechguy34@outlook.com)
+  - Any Queries can be sent to my E-Mail ID: [karthikeyanvijayabaskar@gmail.com](mailto:karthikeyanvijayabaskar@gmail.com)
 
 For the full ChangeLog: [Click Here](https://github.com/thetechguy-kt/interview-caller-system/blob/main/Changelog.md)
 
