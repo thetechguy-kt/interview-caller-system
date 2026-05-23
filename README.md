@@ -17,6 +17,7 @@ To get the Online Version of this application or system, please have a look at t
   - Any Queries can be sent to my E-Mail ID: [karthikeyanvijayabaskar@gmail.com](mailto:karthikeyanvijayabaskar@gmail.com)
 
 For the full ChangeLog: [Click Here](https://github.com/thetechguy-kt/interview-caller-system/blob/main/Changelog.md)
+
 For the Official Application User Manual: [Click Here](https://drive.google.com/drive/folders/1dEOvIvVPWtI9lxk0ZPQJbndebifffQOo?usp=drive_link)
 
 ## 📄 1. Candidate Token Generator App - `Candidate POS.py (With Packaged .exe File for Windows)`
